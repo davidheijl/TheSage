@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D9D2B30138BFA0B006C2130 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D9D2B2F138BFA0B006C2130 /* UIKit.framework */; };
+		1D9D2B32138BFA0B006C2130 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D9D2B31138BFA0B006C2130 /* Foundation.framework */; };
+		1D9D2B34138BFA0B006C2130 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D9D2B33138BFA0B006C2130 /* CoreGraphics.framework */; };
+		1D9D2B3A138BFA0B006C2130 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D9D2B38138BFA0B006C2130 /* InfoPlist.strings */; };
+		1D9D2B3D138BFA0B006C2130 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9D2B3C138BFA0B006C2130 /* main.m */; };
+		1D9D2B40138BFA0B006C2130 /* TheSageXCodeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9D2B3F138BFA0B006C2130 /* TheSageXCodeAppDelegate.m */; };
+		1D9D2B43138BFA0B006C2130 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D9D2B41138BFA0B006C2130 /* MainWindow.xib */; };
+		1D9D2B46138BFA0B006C2130 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9D2B45138BFA0B006C2130 /* RootViewController.m */; };
+		1D9D2B49138BFA0B006C2130 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D9D2B47138BFA0B006C2130 /* RootViewController.xib */; };
+		1D9D2B50138BFA0B006C2130 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D9D2B2F138BFA0B006C2130 /* UIKit.framework */; };
+		1D9D2B51138BFA0B006C2130 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D9D2B31138BFA0B006C2130 /* Foundation.framework */; };
+		1D9D2B52138BFA0B006C2130 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D9D2B33138BFA0B006C2130 /* CoreGraphics.framework */; };
+		1D9D2B5A138BFA0B006C2130 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D9D2B58138BFA0B006C2130 /* InfoPlist.strings */; };
+		1D9D2B5D138BFA0B006C2130 /* TheSageXCodeTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 1D9D2B5C138BFA0B006C2130 /* TheSageXCodeTests.h */; };
+		1D9D2B5F138BFA0B006C2130 /* TheSageXCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9D2B5E138BFA0B006C2130 /* TheSageXCodeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D9D2B53138BFA0B006C2130 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D9D2B22138BFA0B006C2130 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D9D2B2A138BFA0B006C2130;
+			remoteInfo = TheSageXCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D9D2B2B138BFA0B006C2130 /* TheSageXCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheSageXCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D9D2B2F138BFA0B006C2130 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1D9D2B31138BFA0B006C2130 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D9D2B33138BFA0B006C2130 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1D9D2B37138BFA0B006C2130 /* TheSageXCode-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TheSageXCode-Info.plist"; sourceTree = "<group>"; };
+		1D9D2B39138BFA0B006C2130 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1D9D2B3B138BFA0B006C2130 /* TheSageXCode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TheSageXCode-Prefix.pch"; sourceTree = "<group>"; };
+		1D9D2B3C138BFA0B006C2130 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1D9D2B3E138BFA0B006C2130 /* TheSageXCodeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TheSageXCodeAppDelegate.h; sourceTree = "<group>"; };
+		1D9D2B3F138BFA0B006C2130 /* TheSageXCodeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheSageXCodeAppDelegate.m; sourceTree = "<group>"; };
+		1D9D2B42138BFA0B006C2130 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		1D9D2B44138BFA0B006C2130 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		1D9D2B45138BFA0B006C2130 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		1D9D2B48138BFA0B006C2130 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		1D9D2B4F138BFA0B006C2130 /* TheSageXCodeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheSageXCodeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D9D2B57138BFA0B006C2130 /* TheSageXCodeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TheSageXCodeTests-Info.plist"; sourceTree = "<group>"; };
+		1D9D2B59138BFA0B006C2130 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1D9D2B5B138BFA0B006C2130 /* TheSageXCodeTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TheSageXCodeTests-Prefix.pch"; sourceTree = "<group>"; };
+		1D9D2B5C138BFA0B006C2130 /* TheSageXCodeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TheSageXCodeTests.h; sourceTree = "<group>"; };
+		1D9D2B5E138BFA0B006C2130 /* TheSageXCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheSageXCodeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D9D2B28138BFA0B006C2130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D9D2B30138BFA0B006C2130 /* UIKit.framework in Frameworks */,
+				1D9D2B32138BFA0B006C2130 /* Foundation.framework in Frameworks */,
+				1D9D2B34138BFA0B006C2130 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D9D2B4B138BFA0B006C2130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D9D2B50138BFA0B006C2130 /* UIKit.framework in Frameworks */,
+				1D9D2B51138BFA0B006C2130 /* Foundation.framework in Frameworks */,
+				1D9D2B52138BFA0B006C2130 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D9D2B20138BFA0B006C2130 = {
+			isa = PBXGroup;
+			children = (
+				1D9D2B35138BFA0B006C2130 /* TheSageXCode */,
+				1D9D2B55138BFA0B006C2130 /* TheSageXCodeTests */,
+				1D9D2B2E138BFA0B006C2130 /* Frameworks */,
+				1D9D2B2C138BFA0B006C2130 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D9D2B2C138BFA0B006C2130 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D9D2B2B138BFA0B006C2130 /* TheSageXCode.app */,
+				1D9D2B4F138BFA0B006C2130 /* TheSageXCodeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D9D2B2E138BFA0B006C2130 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D9D2B2F138BFA0B006C2130 /* UIKit.framework */,
+				1D9D2B31138BFA0B006C2130 /* Foundation.framework */,
+				1D9D2B33138BFA0B006C2130 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D9D2B35138BFA0B006C2130 /* TheSageXCode */ = {
+			isa = PBXGroup;
+			children = (
+				1D9D2B3E138BFA0B006C2130 /* TheSageXCodeAppDelegate.h */,
+				1D9D2B3F138BFA0B006C2130 /* TheSageXCodeAppDelegate.m */,
+				1D9D2B41138BFA0B006C2130 /* MainWindow.xib */,
+				1D9D2B44138BFA0B006C2130 /* RootViewController.h */,
+				1D9D2B45138BFA0B006C2130 /* RootViewController.m */,
+				1D9D2B47138BFA0B006C2130 /* RootViewController.xib */,
+				1D9D2B36138BFA0B006C2130 /* Supporting Files */,
+			);
+			path = TheSageXCode;
+			sourceTree = "<group>";
+		};
+		1D9D2B36138BFA0B006C2130 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D9D2B37138BFA0B006C2130 /* TheSageXCode-Info.plist */,
+				1D9D2B38138BFA0B006C2130 /* InfoPlist.strings */,
+				1D9D2B3B138BFA0B006C2130 /* TheSageXCode-Prefix.pch */,
+				1D9D2B3C138BFA0B006C2130 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D9D2B55138BFA0B006C2130 /* TheSageXCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D9D2B5C138BFA0B006C2130 /* TheSageXCodeTests.h */,
+				1D9D2B5E138BFA0B006C2130 /* TheSageXCodeTests.m */,
+				1D9D2B56138BFA0B006C2130 /* Supporting Files */,
+			);
+			path = TheSageXCodeTests;
+			sourceTree = "<group>";
+		};
+		1D9D2B56138BFA0B006C2130 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D9D2B57138BFA0B006C2130 /* TheSageXCodeTests-Info.plist */,
+				1D9D2B58138BFA0B006C2130 /* InfoPlist.strings */,
+				1D9D2B5B138BFA0B006C2130 /* TheSageXCodeTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D9D2B2A138BFA0B006C2130 /* TheSageXCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D9D2B62138BFA0B006C2130 /* Build configuration list for PBXNativeTarget "TheSageXCode" */;
+			buildPhases = (
+				1D9D2B27138BFA0B006C2130 /* Sources */,
+				1D9D2B28138BFA0B006C2130 /* Frameworks */,
+				1D9D2B29138BFA0B006C2130 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheSageXCode;
+			productName = TheSageXCode;
+			productReference = 1D9D2B2B138BFA0B006C2130 /* TheSageXCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D9D2B4E138BFA0B006C2130 /* TheSageXCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D9D2B65138BFA0B006C2130 /* Build configuration list for PBXNativeTarget "TheSageXCodeTests" */;
+			buildPhases = (
+				1D9D2B4A138BFA0B006C2130 /* Sources */,
+				1D9D2B4B138BFA0B006C2130 /* Frameworks */,
+				1D9D2B4C138BFA0B006C2130 /* Resources */,
+				1D9D2B4D138BFA0B006C2130 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D9D2B54138BFA0B006C2130 /* PBXTargetDependency */,
+			);
+			name = TheSageXCodeTests;
+			productName = TheSageXCodeTests;
+			productReference = 1D9D2B4F138BFA0B006C2130 /* TheSageXCodeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D9D2B22138BFA0B006C2130 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = EskoArtwork;
+			};
+			buildConfigurationList = 1D9D2B25138BFA0B006C2130 /* Build configuration list for PBXProject "TheSageXCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1D9D2B20138BFA0B006C2130;
+			productRefGroup = 1D9D2B2C138BFA0B006C2130 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D9D2B2A138BFA0B006C2130 /* TheSageXCode */,
+				1D9D2B4E138BFA0B006C2130 /* TheSageXCodeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D9D2B29138BFA0B006C2130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D9D2B3A138BFA0B006C2130 /* InfoPlist.strings in Resources */,
+				1D9D2B43138BFA0B006C2130 /* MainWindow.xib in Resources */,
+				1D9D2B49138BFA0B006C2130 /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D9D2B4C138BFA0B006C2130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D9D2B5A138BFA0B006C2130 /* InfoPlist.strings in Resources */,
+				1D9D2B5D138BFA0B006C2130 /* TheSageXCodeTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D9D2B4D138BFA0B006C2130 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D9D2B27138BFA0B006C2130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D9D2B3D138BFA0B006C2130 /* main.m in Sources */,
+				1D9D2B40138BFA0B006C2130 /* TheSageXCodeAppDelegate.m in Sources */,
+				1D9D2B46138BFA0B006C2130 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D9D2B4A138BFA0B006C2130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D9D2B5F138BFA0B006C2130 /* TheSageXCodeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D9D2B54138BFA0B006C2130 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D9D2B2A138BFA0B006C2130 /* TheSageXCode */;
+			targetProxy = 1D9D2B53138BFA0B006C2130 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D9D2B38138BFA0B006C2130 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D9D2B39138BFA0B006C2130 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1D9D2B41138BFA0B006C2130 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D9D2B42138BFA0B006C2130 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		1D9D2B47138BFA0B006C2130 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D9D2B48138BFA0B006C2130 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+		1D9D2B58138BFA0B006C2130 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D9D2B59138BFA0B006C2130 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D9D2B60138BFA0B006C2130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1D9D2B61138BFA0B006C2130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		1D9D2B63138BFA0B006C2130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TheSageXCode/TheSageXCode-Prefix.pch";
+				INFOPLIST_FILE = "TheSageXCode/TheSageXCode-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1D9D2B64138BFA0B006C2130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TheSageXCode/TheSageXCode-Prefix.pch";
+				INFOPLIST_FILE = "TheSageXCode/TheSageXCode-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1D9D2B66138BFA0B006C2130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TheSageXCode.app/TheSageXCode";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TheSageXCodeTests/TheSageXCodeTests-Prefix.pch";
+				INFOPLIST_FILE = "TheSageXCodeTests/TheSageXCodeTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1D9D2B67138BFA0B006C2130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TheSageXCode.app/TheSageXCode";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TheSageXCodeTests/TheSageXCodeTests-Prefix.pch";
+				INFOPLIST_FILE = "TheSageXCodeTests/TheSageXCodeTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D9D2B25138BFA0B006C2130 /* Build configuration list for PBXProject "TheSageXCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D9D2B60138BFA0B006C2130 /* Debug */,
+				1D9D2B61138BFA0B006C2130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D9D2B62138BFA0B006C2130 /* Build configuration list for PBXNativeTarget "TheSageXCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D9D2B63138BFA0B006C2130 /* Debug */,
+				1D9D2B64138BFA0B006C2130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1D9D2B65138BFA0B006C2130 /* Build configuration list for PBXNativeTarget "TheSageXCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D9D2B66138BFA0B006C2130 /* Debug */,
+				1D9D2B67138BFA0B006C2130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D9D2B22138BFA0B006C2130 /* Project object */;
+}

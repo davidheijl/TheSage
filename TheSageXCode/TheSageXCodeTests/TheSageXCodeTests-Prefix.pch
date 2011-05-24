@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'TheSageXCodeTests' target in the 'TheSageXCodeTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
