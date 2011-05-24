@@ -22,6 +22,7 @@
 		1D9D2B5A138BFA0B006C2130 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D9D2B58138BFA0B006C2130 /* InfoPlist.strings */; };
 		1D9D2B5D138BFA0B006C2130 /* TheSageXCodeTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 1D9D2B5C138BFA0B006C2130 /* TheSageXCodeTests.h */; };
 		1D9D2B5F138BFA0B006C2130 /* TheSageXCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9D2B5E138BFA0B006C2130 /* TheSageXCodeTests.m */; };
+		1D9D2B6B138BFE2B006C2130 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D9D2B69138BFE2B006C2130 /* MainWindow-iPad.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		1D9D2B5B138BFA0B006C2130 /* TheSageXCodeTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TheSageXCodeTests-Prefix.pch"; sourceTree = "<group>"; };
 		1D9D2B5C138BFA0B006C2130 /* TheSageXCodeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TheSageXCodeTests.h; sourceTree = "<group>"; };
 		1D9D2B5E138BFA0B006C2130 /* TheSageXCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheSageXCodeTests.m; sourceTree = "<group>"; };
+		1D9D2B6A138BFE2B006C2130 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "iPad/en.lproj/MainWindow-iPad.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 		1D9D2B35138BFA0B006C2130 /* TheSageXCode */ = {
 			isa = PBXGroup;
 			children = (
+				1D9D2B68138BFE28006C2130 /* iPad */,
 				1D9D2B3E138BFA0B006C2130 /* TheSageXCodeAppDelegate.h */,
 				1D9D2B3F138BFA0B006C2130 /* TheSageXCodeAppDelegate.m */,
 				1D9D2B41138BFA0B006C2130 /* MainWindow.xib */,
@@ -153,6 +156,14 @@
 				1D9D2B5B138BFA0B006C2130 /* TheSageXCodeTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D9D2B68138BFE28006C2130 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				1D9D2B69138BFE2B006C2130 /* MainWindow-iPad.xib */,
+			);
+			name = iPad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +239,7 @@
 				1D9D2B3A138BFA0B006C2130 /* InfoPlist.strings in Resources */,
 				1D9D2B43138BFA0B006C2130 /* MainWindow.xib in Resources */,
 				1D9D2B49138BFA0B006C2130 /* RootViewController.xib in Resources */,
+				1D9D2B6B138BFE2B006C2130 /* MainWindow-iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +332,14 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
+		1D9D2B69138BFE2B006C2130 /* MainWindow-iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D9D2B6A138BFE2B006C2130 /* en */,
+			);
+			name = "MainWindow-iPad.xib";
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -364,7 +384,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TheSageXCode/TheSageXCode-Prefix.pch";
 				INFOPLIST_FILE = "TheSageXCode/TheSageXCode-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -377,7 +399,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TheSageXCode/TheSageXCode-Prefix.pch";
 				INFOPLIST_FILE = "TheSageXCode/TheSageXCode-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
